@@ -78,7 +78,20 @@ mod tests {
 }
 ```
 
-Now we can execute our tests with Cargo. At the root of your `hello-world` folder, run:
+{% hint style="info" %}
+Notice that we just created our first function. In Rust, you define functions using the keyword `fn`. Then, it is very similar to most languages. You need to use braces to tell the compiler where the body begins and where it ends. Also notice that we specified the type of the return value with a syntax that is very similar to type annotations in Python. If we had parameters, we would also have had to add the corresponding type.
+
+To summarize, the syntax for defining a function in Rust is:
+
+```rust
+fn my_function(param1: u32, param2: bool) -> String {
+    // function body
+}
+```
+
+{% endhint %}
+
+Time to execute our tests with Cargo. At the root of your `hello-world` folder, run:
 
 ```bash
 cargo test
