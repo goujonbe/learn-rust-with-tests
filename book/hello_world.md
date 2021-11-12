@@ -67,14 +67,9 @@ fn main() {
     println!("{}", say_hello());
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test_say_hello() {
-        assert!(say_hello() == "Hello, world!");
-    }
+#[test]
+fn test_say_hello() {
+    assert!(say_hello() == "Hello, world!");
 }
 ```
 
@@ -107,8 +102,6 @@ fn test_something() {
    // test logic
 }
 ```
-
-You will also need to import functions from the parent module with `use super::*` but let's leave that notion of module aside for now. We will cover it in a future section.
 
 Ok, making this test pass shouldn't be too hard. Try to fix the function and reexecute the code. Your `say_hello` function should now looks like this:
 
