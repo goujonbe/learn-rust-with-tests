@@ -4,7 +4,7 @@ Learning a new programming language can be hard sometimes, especially for those 
 
 Rust is notoriously hard to learn despite some [excellent resources](https://www.rust-lang.org/learn). So, as my goal is to make Rust accessible to everyone, I will be working on this guide that complements official learning resources.
 
-## Targeted audience
+## Target audience
 
 This guide is for developers who like the hands-on approach and are interested in software testing. Basic notions of programming like knowing what a loop is are mandatory. A previous experience with another programming language will make things easier but is not required.
 
