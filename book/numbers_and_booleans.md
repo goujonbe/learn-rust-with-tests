@@ -94,9 +94,7 @@ As a reminder, here is the formula we are going to use:
 
 Given a right rectangle, if the lengths of both a and b are known, then c can be calculated as:
 
-```math
-c = \sqrt{aˆ2 + bˆ2}
-```
+$$ c = \sqrt{a^{2} + b^{2}} $$
 
 Apply this formula to write your first test case. Also add the function's signature and a dummy return value.
 
