@@ -34,8 +34,8 @@ What are the differences between the two and why did we use string slices for th
 
 Here is a short summary of the differences between the two types:
 
-| | `&str` | `String` |
-| ----- | ----------- |
+|   | `&str` | `String` |
+| - | ------ | ----------- |
 | What is it exactly? | A reference to some UTF-8 encoded string data stored elsewhere | A mutable UTF-8 enocded string type |
 | What is the best use case? | ideal for text data that **does not** change | ideal for text data that changes |
 | Is is natively supported? | Yes as part of the **core language** | **Yes** as part of the **standard library** |
@@ -162,5 +162,7 @@ If you don't have prior experience with low-level languages (C/C++ in particular
 ## Go further
 
 [Why Rust strings seem hard article](https://www.brandons.me/blog/why-rust-strings-seem-hard), Brandon Smith
+
 [String type official documentation](https://doc.rust-lang.org/std/string/struct.String.html)
+
 [Chapter on Strings in the official Rust book](https://doc.rust-lang.org/book/ch08-02-strings.html)
