@@ -86,11 +86,11 @@ Tests pass! Yet I don't know about you but I have the feeling there is room for 
 
 ## Introducing parameterized tests
 
-Did you notice that tests are essentially the same? There's only a slight difference: the input and the expected output. But, we execute the duplicate the same code three times. When you see this pattern, the solution is often **paramaterized tests**. Parameterized tests allow you to execute the same test against a different set of inputs. Unfortunately, it is not included in the standard library but we can leverage some external pacakges.
+Did you notice that tests are essentially the same? There's only a slight difference: the input and the expected output. But, we execute the same code three times. When you see this pattern, the solution is often **paramaterized tests**. Parameterized tests allow you to execute the same test against a different set of inputs. Unfortunately, it is not included in the standard library but we can leverage some external pacakges.
 
 Until then, you have used Cargo to run your code and your tests but in this chapter, you will also use it to manage your dependencies. To do so, you will write your dependencies in the `Cargo.toml` file that is automatically generated when you run `cargo new`.
 
-To avoid reinventing the wheel, we will leverage a package called [parameterized](https://crates.io/crates/parameterized). There were other options but we will keep it simple with a package that does exactly what we need. To use it in your code add the following lines to your `Cargo.toml` file.
+To avoid reinventing the wheel, we will leverage a package called [parameterized](https://crates.io/crates/parameterized). There are other options but we will keep it simple with a package that does exactly what we need. To use it in your code add the following lines to your `Cargo.toml` file.
 
 ```toml
 [dev-dependencies]
@@ -160,9 +160,9 @@ Passing the `Employee`'s struct to the function does not feel natural. It would 
 
 ## Define a method instead of a function for email address generation
 
-The syntax for methods is very close to the one for functions. THe only differences are:
+The syntax for methods is very close to the one for functions. The only differences are:
 
-* you need to encapsulate your function in a `impl <StructName> {}` block
+* you need to encapsulate your method in a `impl <StructName> {}` block
 * the first parameter is always `self`
 * when you call them, you use the `.` notation on the instance
 
@@ -237,4 +237,4 @@ Much more concise right?
 
 Although Rust does not have a `class` keyword, a lot of concepts from OOP can be applied through structs and methods. In Rust programs, structs are everywhere because they can group values of different types together. Fields are explicitely named which makes the code more readable. Sometimes, you want to apply a function on the instance of a struct and this is when methods come in.
 
-Testing methods can generate a lot of boilerplate code and this is why it might be a good idea to declare multiple test cases for a single test function through parameterized tests. It is more digest to read.
+Testing methods can generate a lot of boilerplate code and this is why it might be a good idea to declare multiple test cases for a single test function through parameterized tests. It is more digest to read and avoids code duplication.
