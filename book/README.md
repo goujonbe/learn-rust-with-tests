@@ -1,12 +1,12 @@
 # Introduction
 
-Learning a new programming language can be hard sometimes, especially for those that have a steep learning curve. Rust belongs to that category but once you master the core concepts, it is a pleasure to write some Rust code. Rust is the language developers love the most according to the [latest StackOverflow developer survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved). There are excellent articles on why Rust is truly special, so I won't detail the reasons here.
+Learning a new programming language can be hard sometimes, especially for those that have a steep learning curve. Rust belongs to that category but the effort is a worth it. Indeed, it is the language developers [love the most](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved)!.
 
-Rust is notoriously hard to learn despite some [excellent resources](https://www.rust-lang.org/learn). So, as my goal is to make Rust accessible to everyone, I will be working on this guide that complements official learning resources.
+Despite some [excellent resources](https://www.rust-lang.org/learn), Rust concepts are so unique they are still hard to grasp. So, my aim with this book is to propose a new approach that will hopefully resonate with developers left behind by other learning materials.
 
 ## Target audience
 
-This guide is for developers who like the hands-on approach and are interested in software testing. Basic notions of programming like knowing what a loop is are mandatory. A previous experience with another programming language will make things easier but is not required.
+This guide is for developers who like the hands-on approach and are interested in software testing. A previous experience with another programming language will make things easier but is not required.
 
 ## How is this guide different from the others
 
@@ -21,6 +21,10 @@ Testing is often absent from getting started guides although it is essential in 
 A laptop with Rust installed.
 
 As far as the installation is concerned, [this guide](https://www.rust-lang.org/tools/install) will serve your purpose.
+
+## Contact
+
+I would love to hear from you, whether you have constructive feedback or anything you want to say. You can write an email to `author@learn-rust-with-tests.com`. I will do my best to reply in reasonable delays.
 
 ## Credits
 
